@@ -1,0 +1,51 @@
+.listItem {
+    min-width: 320px;
+    height: 200px;
+    background: var(--main-color);
+    margin-right: 5px;
+    cursor: pointer;
+    color: white;
+    overflow: hidden;
+    transition: all 1s ease;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: transform .5s ease;
+}
+
+.small {
+    min-width: 220px;
+    height: 130px;
+}
+
+.small .icon-group {
+    font-size: 14px;
+}
+
+.small .icon {
+    transform: scale(1);
+}
+
+
+.icons {
+    display: flex;
+}
+
+
+.listItem:hover {
+    transform: scale(1.2);
+}
+
+.listItem .icon-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+    padding: 5px;
+}
+
+.icon {
+    margin-right: 10px;
+    transform: scale(1.5);
+}

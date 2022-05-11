@@ -1,0 +1,19 @@
+.row {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.row h2 {
+    margin-bottom: 10px;
+}
+
+.posters {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+}
